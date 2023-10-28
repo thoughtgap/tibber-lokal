@@ -55,7 +55,8 @@ async function sendToHA(entity_id, state) {
 
   await axios.post(`${HA_ENDPOINT}${entity_id}`, payload, config);
 
-let lastRequestFailed = false;
+  let lastRequestFailed = false;
+}
 
 async function pollAndSend() {
   try {
