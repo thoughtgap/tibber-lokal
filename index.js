@@ -101,5 +101,5 @@ async function pollAndSend() {
   }
 }
 
-// Poll Tibber every 2 seconds
+// Initial Polling
 pollAndSend();
