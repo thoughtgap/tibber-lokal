@@ -1,0 +1,12 @@
+version: '3'
+services:
+  tibber-lokal:
+    image: tibber-lokal:latest
+    restart: unless-stopped
+
+    environment:
+      TIBBER_USERNAME: ${TIBBER_USERNAME}
+      TIBBER_PASSWORD: ${TIBBER_PASSWORD}
+      HA_TOKEN: ${HA_TOKEN}
+      HA_ENDPOINT: ${HA_ENDPOINT}
+      TIBBER_HOST_URL: ${TIBBER_HOST_URL}
