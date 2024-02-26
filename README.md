@@ -1,3 +1,7 @@
+# :warning: Repository Inactive
+This repository is no longer active. Use this instead: [ha-tibber-pulse-local repository](https://github.com/marq24/ha-tibber-pulse-local)
+---
+
 # tibber-lokal
 Fetches Tibber Data (Meter, Power) locally from Tibber Pulse IR and posts to Home Assistant
 
